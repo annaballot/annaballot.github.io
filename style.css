@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: lerge;
   line-height: 1.6em;
+  margin: 50px;
 }
 
 h1, h2 {
@@ -23,16 +23,25 @@ p {
 
 .container {
   display: grid;
-  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-columns: 47.5% 47.5%;
+  grid-gap: 5%;
 }
 
-#maincontent {
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+/* #maincontent {
   grid-column-start: 2;
 }
 
 #sidebar {
   grid-column-start: 3;
-}
+} */
 
 .sidebar-img {
   width: 200px;
