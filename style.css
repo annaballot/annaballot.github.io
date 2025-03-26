@@ -21,16 +21,16 @@ h2 {
 
 .container {
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 7.5% 40% 40% 7.5%;
   grid-gap: 5%;
 }
 
 #maincontent {
-  grid-column-start: 1;
+  grid-column-start: 2;
 }
 
 #sidebar {
-  grid-column-start: 2;
+  grid-column-start: 3;
 }
 
 .sidebar-img {
