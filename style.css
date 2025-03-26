@@ -33,24 +33,3 @@ img {
   object-fit: contain;
 }
 
-
-
-/* #maincontent {
-  grid-column-start: 2;
-}
-
-#sidebar {
-  grid-column-start: 3;
-} */
-
-.sidebar-img {
-  width: 200px;
-  display: block;
-}
-
-.banner-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
